@@ -6,9 +6,11 @@ func ExampleChain() {
 	fmt.Println(Chain("abc", 3))
 	fmt.Println(Chain("a", 2))
 	fmt.Println(Chain("", 2))
+	fmt.Println(Chain("a", 0))
 
 	// Output:
 	// abcabcabc
 	// aa
+	//
 	//
 }
